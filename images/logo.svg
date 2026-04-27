@@ -1,33 +1,16 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 64" fill="none" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 60" fill="none">
+  <!-- Outer crescent (deep navy) -->
+  <circle cx="28" cy="30" r="26" fill="#1a3461"/>
+  <circle cx="33" cy="30" r="20" fill="#ffffff"/>
 
-  <!-- MARK: Filled crescent shapes — crisp at any size -->
+  <!-- Inner crescent (clean blue) -->
+  <circle cx="33" cy="30" r="17" fill="#2E6DB4"/>
+  <circle cx="38" cy="30" r="12" fill="#ffffff"/>
 
-  <!-- Outer crescent (navy) -->
-  <path d="
-    M 32 4
-    A 28 28 0 1 1 4 32
-    A 28 28 0 1 0 32 4 Z
-  " fill="none"/>
+  <!-- Core -->
+  <circle cx="38" cy="30" r="5" fill="#1a3461"/>
 
-  <!-- Clean outer ring arc using clip approach -->
-  <!-- Outer full circle -->
-  <circle cx="32" cy="32" r="28" fill="#2B3A67"/>
-  <!-- Cut inner circle to create crescent -->
-  <circle cx="36" cy="32" r="21" fill="#ffffff"/>
-
-  <!-- Inner accent arc (steel blue) — smaller offset crescent -->
-  <circle cx="36" cy="32" r="18" fill="#3D5A80"/>
-  <!-- Cut center -->
-  <circle cx="40" cy="32" r="13" fill="#ffffff"/>
-
-  <!-- Core dot -->
-  <circle cx="40" cy="32" r="5" fill="#2B3A67"/>
-
-  <!-- WORDMARK -->
-  <!-- ELITE — bold navy -->
-  <text x="76" y="28" font-family="'Arial Black', 'Arial Bold', Arial, sans-serif" font-size="22" font-weight="900" fill="#2B3A67" letter-spacing="1.5">ELITE</text>
-
-  <!-- BUSINESS SYSTEMS — light gray tracked -->
-  <text x="78" y="48" font-family="Arial, Helvetica, sans-serif" font-size="9.5" font-weight="500" fill="#808080" letter-spacing="4.2">BUSINESS SYSTEMS</text>
-
+  <!-- ELITE SOLUTIONS wordmark -->
+  <text x="68" y="26" font-family="'Arial Black', Arial, sans-serif" font-size="19" font-weight="900" fill="#1a3461" letter-spacing="1">ELITE</text>
+  <text x="68" y="44" font-family="'Arial Black', Arial, sans-serif" font-size="14" font-weight="700" fill="#2E6DB4" letter-spacing="2">SOLUTIONS</text>
 </svg>
