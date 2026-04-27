@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 72" fill="none">
+  <!-- Gold diamond / diamond mark -->
+  <g transform="translate(0, 4)">
+    <!-- Outer diamond shape -->
+    <polygon points="32,4 56,32 32,60 8,32" fill="#c9a84c"/>
+    <!-- Inner diamond cut -->
+    <polygon points="32,14 46,32 32,50 18,32" fill="#0a0a0a"/>
+    <!-- Center diamond -->
+    <polygon points="32,22 40,32 32,42 24,32" fill="#c9a84c"/>
+  </g>
+
+  <!-- Wordmark -->
+  <text x="72" y="30" font-family="Georgia, 'Times New Roman', serif" font-size="22" font-weight="700" fill="#0a0a0a" letter-spacing="-0.5">ELITE</text>
+  <text x="72" y="52" font-family="Georgia, 'Times New Roman', serif" font-size="22" font-weight="700" fill="#c9a84c" letter-spacing="-0.5">BUSINESS</text>
+
+  <!-- "SYSTEMS" to the right of ELITE -->
+  <text x="72" y="68" font-family="'Inter', Arial, sans-serif" font-size="9" font-weight="600" fill="#888888" letter-spacing="3">SYSTEMS</text>
+
+  <!-- Vertical divider -->
+  <rect x="185" y="16" width="1.5" height="40" fill="#e0e0e0"/>
+
+  <!-- Tagline -->
+  <text x="196" y="34" font-family="'Inter', Arial, sans-serif" font-size="8.5" fill="#aaaaaa" letter-spacing="1.5">CONSULTING &amp;</text>
+  <text x="196" y="47" font-family="'Inter', Arial, sans-serif" font-size="8.5" fill="#aaaaaa" letter-spacing="1.5">STRATEGIC</text>
+  <text x="196" y="60" font-family="'Inter', Arial, sans-serif" font-size="8.5" fill="#aaaaaa" letter-spacing="1.5">DEVELOPMENT</text>
+</svg>
