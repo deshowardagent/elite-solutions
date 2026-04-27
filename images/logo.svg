@@ -1,11 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 90" fill="none">
-  <!-- Outer arc (top-left sweep) - dark navy -->
-  <path d="M 20 45 A 38 38 0 1 1 58 83" stroke="#2B3A67" stroke-width="9" fill="none" stroke-linecap="round"/>
-  <!-- Inner arc (bottom-right sweep) - steel blue -->
-  <path d="M 72 45 A 26 26 0 1 0 46 71" stroke="#3D5A80" stroke-width="6" fill="none" stroke-linecap="round"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 80" fill="none">
+  <!-- Outer swoosh arc - gold -->
+  <path d="M 10 40 A 36 36 0 1 1 46 76" stroke="#c9a84c" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <!-- Inner swoosh arc - dark gold -->
+  <path d="M 72 40 A 24 24 0 1 0 48 64" stroke="#a8883a" stroke-width="5" fill="none" stroke-linecap="round"/>
 
-  <!-- ELITE text -->
-  <text x="98" y="42" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" fill="#2B3A67" letter-spacing="2">ELITE</text>
-  <!-- BUSINESS SYSTEMS text -->
-  <text x="100" y="60" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="500" fill="#808080" letter-spacing="3.5">BUSINESS SYSTEMS</text>
+  <!-- ELITE wordmark - bold black -->
+  <text x="104" y="38" font-family="Arial Black, Arial, Helvetica, sans-serif" font-size="26" font-weight="900" fill="#0a0a0a" letter-spacing="1">ELITE</text>
+  <!-- BUSINESS SYSTEMS - spaced gray -->
+  <text x="106" y="57" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="500" fill="#888888" letter-spacing="4">BUSINESS SYSTEMS</text>
 </svg>
