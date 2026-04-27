@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact | Elite Business Systems</title>
+  <meta name="description" content="Get in touch with Elite Business Systems to book a consultation or ask about our services." />
+  <link rel="stylesheet" href="css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="navbar">
+    <div class="nav-inner container">
+      <a href="index.html" class="logo">Elite Business Systems</a>
+      <button class="nav-toggle" aria-label="Toggle menu">&#9776;</button>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="how-it-works.html">How It Works</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+        <li><a href="contact.html" class="btn-nav">Book a Consultation</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- PAGE HEADER -->
+  <section class="page-header">
+    <div class="container">
+      <div class="section-label light">Get in Touch</div>
+      <h1>Contact Us</h1>
+      <p>For support, questions, or to book a consultation — reach out and we'll get back to you promptly.</p>
+    </div>
+  </section>
+
+  <!-- CONTACT SECTION -->
+  <section class="section">
+    <div class="container contact-layout">
+
+      <!-- FORM -->
+      <div class="contact-form-wrap">
+        <h2>Send Us a Message</h2>
+        <p>Fill out the form below and we'll follow up by email within 1 business day.</p>
+
+        <form class="contact-form" id="contactForm" action="https://formspree.io/f/xpwqjblv" method="POST">
+          <div class="form-group">
+            <label for="name">Full Name *</label>
+            <input type="text" id="name" name="name" placeholder="Your full name" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email Address *</label>
+            <input type="email" id="email" name="email" placeholder="your@email.com" required />
+          </div>
+          <div class="form-group">
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone" placeholder="(000) 000-0000" />
+          </div>
+          <div class="form-group">
+            <label for="service">Service of Interest</label>
+            <select id="service" name="service">
+              <option value="">Select a service...</option>
+              <option value="Business Strategy Consulting">Business Strategy Consulting</option>
+              <option value="Systems & Operations Support">Systems &amp; Operations Support</option>
+              <option value="Growth Planning">Growth Planning</option>
+              <option value="Digital Resources & Frameworks">Digital Resources &amp; Frameworks</option>
+              <option value="Ongoing Advisory Support">Ongoing Advisory Support</option>
+              <option value="Not sure yet">Not sure yet — need a consultation</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="message">Message *</label>
+            <textarea id="message" name="message" rows="5" placeholder="Tell us about your business and what you're looking to work on..." required></textarea>
+          </div>
+          <button type="submit" class="btn-primary btn-full">Send Message</button>
+          <p class="form-note">By submitting this form, you agree to be contacted by our team via email.</p>
+        </form>
+      </div>
+
+      <!-- CONTACT INFO -->
+      <div class="contact-info">
+        <div class="contact-card">
+          <h3>Direct Contact</h3>
+          <p>Prefer to reach out directly? Email us at:</p>
+          <a href="mailto:elite@securedpockets.com" class="contact-email">elite@securedpockets.com</a>
+          <p class="contact-note">We respond within 1 business day.</p>
+        </div>
+
+        <div class="contact-card">
+          <h3>Business Hours</h3>
+          <ul class="hours-list">
+            <li><span>Monday – Friday</span><span>9 AM – 6 PM EST</span></li>
+            <li><span>Saturday</span><span>By appointment</span></li>
+            <li><span>Sunday</span><span>Closed</span></li>
+          </ul>
+        </div>
+
+        <div class="contact-card">
+          <h3>Fulfillment Info</h3>
+          <p>All services are fulfilled digitally. Same-day onboarding for purchases before 5 PM EST. See our <a href="refund-policy.html">Refund Policy</a> for full details.</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <span class="logo">Elite Business Systems</span>
+        <p>Business consulting and strategic development for entrepreneurs and growing business owners.</p>
+      </div>
+      <div class="footer-links">
+        <h4>Navigation</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="how-it-works.html">How It Works</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-links">
+        <h4>Legal</h4>
+        <ul>
+          <li><a href="refund-policy.html">Refund Policy</a></li>
+        </ul>
+      </div>
+      <div class="footer-contact">
+        <h4>Contact</h4>
+        <a href="mailto:elite@securedpockets.com">elite@securedpockets.com</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2025 Elite Business Systems. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
